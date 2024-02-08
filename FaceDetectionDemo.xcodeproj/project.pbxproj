@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33C96C5F2B7569E80058E7B5 /* VideoCaptureServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C96C5E2B7569E80058E7B5 /* VideoCaptureServiceProtocol.swift */; };
+		33C96C612B756AAF0058E7B5 /* ViewController+VideoCaptureServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C96C602B756AAF0058E7B5 /* ViewController+VideoCaptureServiceDelegate.swift */; };
+		33EB2B512B74D2B300C2F296 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB2B502B74D2B300C2F296 /* PreviewView.swift */; };
+		33EB2B532B75282D00C2F296 /* CameraPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB2B522B75282D00C2F296 /* CameraPosition.swift */; };
+		33EB2B552B75284600C2F296 /* AVCaptureDevice.Position+CameraPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB2B542B75284600C2F296 /* AVCaptureDevice.Position+CameraPosition.swift */; };
+		33EB2B582B75294300C2F296 /* FaceDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB2B572B75294300C2F296 /* FaceDetector.swift */; };
+		33EB2B5A2B752ED400C2F296 /* AVCaptureDevice+Lookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB2B592B752ED400C2F296 /* AVCaptureDevice+Lookup.swift */; };
+		33EB2B5C2B752F0A00C2F296 /* AVCaptureSession+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB2B5B2B752F0A00C2F296 /* AVCaptureSession+Init.swift */; };
+		33EB2B5E2B752F3500C2F296 /* AVCaptureVideoDataOutput+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB2B5D2B752F3500C2F296 /* AVCaptureVideoDataOutput+Init.swift */; };
+		33EB2B602B752F5D00C2F296 /* AVCaptureDevice.DiscoverySession+DefaultVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB2B5F2B752F5D00C2F296 /* AVCaptureDevice.DiscoverySession+DefaultVideo.swift */; };
 		33F789EB2B73DA6D00825CD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F789EA2B73DA6D00825CD1 /* AppDelegate.swift */; };
 		33F789ED2B73DA6D00825CD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F789EC2B73DA6D00825CD1 /* SceneDelegate.swift */; };
 		33F789EF2B73DA6D00825CD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F789EE2B73DA6D00825CD1 /* ViewController.swift */; };
-		33F789F22B73DA6D00825CD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F789F02B73DA6D00825CD1 /* Main.storyboard */; };
 		33F789F42B73DA6E00825CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F789F32B73DA6E00825CD1 /* Assets.xcassets */; };
 		33F789F72B73DA6E00825CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F789F52B73DA6E00825CD1 /* LaunchScreen.storyboard */; };
+		33F789FF2B73DE5A00825CD1 /* VideoCaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F789FE2B73DE5A00825CD1 /* VideoCaptureService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33C96C5E2B7569E80058E7B5 /* VideoCaptureServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureServiceProtocol.swift; sourceTree = "<group>"; };
+		33C96C602B756AAF0058E7B5 /* ViewController+VideoCaptureServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+VideoCaptureServiceDelegate.swift"; sourceTree = "<group>"; };
+		33EB2B502B74D2B300C2F296 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		33EB2B522B75282D00C2F296 /* CameraPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPosition.swift; sourceTree = "<group>"; };
+		33EB2B542B75284600C2F296 /* AVCaptureDevice.Position+CameraPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice.Position+CameraPosition.swift"; sourceTree = "<group>"; };
+		33EB2B572B75294300C2F296 /* FaceDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetector.swift; sourceTree = "<group>"; };
+		33EB2B592B752ED400C2F296 /* AVCaptureDevice+Lookup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+Lookup.swift"; sourceTree = "<group>"; };
+		33EB2B5B2B752F0A00C2F296 /* AVCaptureSession+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVCaptureSession+Init.swift"; sourceTree = "<group>"; };
+		33EB2B5D2B752F3500C2F296 /* AVCaptureVideoDataOutput+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVCaptureVideoDataOutput+Init.swift"; sourceTree = "<group>"; };
+		33EB2B5F2B752F5D00C2F296 /* AVCaptureDevice.DiscoverySession+DefaultVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice.DiscoverySession+DefaultVideo.swift"; sourceTree = "<group>"; };
 		33F789E72B73DA6D00825CD1 /* FaceDetectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDetectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F789EA2B73DA6D00825CD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33F789EC2B73DA6D00825CD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		33F789EE2B73DA6D00825CD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		33F789F12B73DA6D00825CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33F789F32B73DA6E00825CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33F789F62B73DA6E00825CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33F789F82B73DA6E00825CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F789FE2B73DE5A00825CD1 /* VideoCaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +57,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33EB2B562B75291000C2F296 /* VideoCaptureService */ = {
+			isa = PBXGroup;
+			children = (
+				33C96C5E2B7569E80058E7B5 /* VideoCaptureServiceProtocol.swift */,
+				33F789FE2B73DE5A00825CD1 /* VideoCaptureService.swift */,
+				33EB2B5F2B752F5D00C2F296 /* AVCaptureDevice.DiscoverySession+DefaultVideo.swift */,
+				33EB2B5D2B752F3500C2F296 /* AVCaptureVideoDataOutput+Init.swift */,
+				33EB2B5B2B752F0A00C2F296 /* AVCaptureSession+Init.swift */,
+				33EB2B592B752ED400C2F296 /* AVCaptureDevice+Lookup.swift */,
+				33EB2B522B75282D00C2F296 /* CameraPosition.swift */,
+				33EB2B542B75284600C2F296 /* AVCaptureDevice.Position+CameraPosition.swift */,
+				33EB2B572B75294300C2F296 /* FaceDetector.swift */,
+			);
+			path = VideoCaptureService;
+			sourceTree = "<group>";
+		};
 		33F789DE2B73DA6D00825CD1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +92,12 @@
 		33F789E92B73DA6D00825CD1 /* FaceDetectionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				33EB2B562B75291000C2F296 /* VideoCaptureService */,
 				33F789EA2B73DA6D00825CD1 /* AppDelegate.swift */,
 				33F789EC2B73DA6D00825CD1 /* SceneDelegate.swift */,
 				33F789EE2B73DA6D00825CD1 /* ViewController.swift */,
-				33F789F02B73DA6D00825CD1 /* Main.storyboard */,
+				33C96C602B756AAF0058E7B5 /* ViewController+VideoCaptureServiceDelegate.swift */,
+				33EB2B502B74D2B300C2F296 /* PreviewView.swift */,
 				33F789F32B73DA6E00825CD1 /* Assets.xcassets */,
 				33F789F52B73DA6E00825CD1 /* LaunchScreen.storyboard */,
 				33F789F82B73DA6E00825CD1 /* Info.plist */,
@@ -127,7 +165,6 @@
 			files = (
 				33F789F72B73DA6E00825CD1 /* LaunchScreen.storyboard in Resources */,
 				33F789F42B73DA6E00825CD1 /* Assets.xcassets in Resources */,
-				33F789F22B73DA6D00825CD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +175,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33EB2B5C2B752F0A00C2F296 /* AVCaptureSession+Init.swift in Sources */,
+				33EB2B532B75282D00C2F296 /* CameraPosition.swift in Sources */,
+				33EB2B602B752F5D00C2F296 /* AVCaptureDevice.DiscoverySession+DefaultVideo.swift in Sources */,
+				33EB2B5E2B752F3500C2F296 /* AVCaptureVideoDataOutput+Init.swift in Sources */,
+				33F789FF2B73DE5A00825CD1 /* VideoCaptureService.swift in Sources */,
 				33F789EF2B73DA6D00825CD1 /* ViewController.swift in Sources */,
+				33C96C5F2B7569E80058E7B5 /* VideoCaptureServiceProtocol.swift in Sources */,
 				33F789EB2B73DA6D00825CD1 /* AppDelegate.swift in Sources */,
+				33EB2B5A2B752ED400C2F296 /* AVCaptureDevice+Lookup.swift in Sources */,
 				33F789ED2B73DA6D00825CD1 /* SceneDelegate.swift in Sources */,
+				33C96C612B756AAF0058E7B5 /* ViewController+VideoCaptureServiceDelegate.swift in Sources */,
+				33EB2B512B74D2B300C2F296 /* PreviewView.swift in Sources */,
+				33EB2B582B75294300C2F296 /* FaceDetector.swift in Sources */,
+				33EB2B552B75284600C2F296 /* AVCaptureDevice.Position+CameraPosition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		33F789F02B73DA6D00825CD1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				33F789F12B73DA6D00825CD1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		33F789F52B73DA6E00825CD1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -295,11 +335,13 @@
 				DEVELOPMENT_TEAM = 657GC2CXLB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FaceDetectionDemo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = NSCameraUsageDescription;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires a feed from the selfie cam, so it can track your face.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,11 +365,13 @@
 				DEVELOPMENT_TEAM = 657GC2CXLB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FaceDetectionDemo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = NSCameraUsageDescription;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires a feed from the selfie cam, so it can track your face.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
