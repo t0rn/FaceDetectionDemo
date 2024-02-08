@@ -10,8 +10,15 @@ import AVFoundation
 import Vision
 
 final class VideoCaptureService: VideoCaptureServiceProtocol {
-    enum Errors: Error {
+    enum Errors: LocalizedError {
         case restrictedPermission
+        
+        var errorDescription: String? {
+            switch self {
+            case .restrictedPermission:
+                return String.localizedStringWithFormat("Permissions denied. See device settings.")
+            }
+        }
     }
     
     weak var delegate: VideoCaptureServiceDelegate?
